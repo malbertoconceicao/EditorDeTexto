@@ -43,7 +43,7 @@ namespace EditorDeTexto
                     text += Environment.NewLine;
                 }
                 while(Console.ReadKey().Key != ConsoleKey.Escape);
-                Console.Write(text);
+                Salvar(text);
             }
             static void Salvar(string text)
             {
@@ -55,6 +55,10 @@ namespace EditorDeTexto
                 {
                     file.Write(text);
                 }
+
+                Console.WriteLine($"Arquivo salvo com sucesso {path}");
+                Thread.Sleep(2000);
+                Menu();
             }   
     }
 }
