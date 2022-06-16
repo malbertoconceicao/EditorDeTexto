@@ -14,7 +14,7 @@ namespace EditorDeTexto
             Console.Clear();
             Console.WriteLine(" O que deseja fazer?");
             Console.WriteLine(" 1 - Abrir o arquivo");
-            Console.WriteLine(" 2 - Editar arquivo");
+            Console.WriteLine(" 2 - Criar um novo arquivo");
             Console.WriteLine(" 0 - Sair");
             short option = short.Parse(Console.ReadLine());
             switch (option)
@@ -35,8 +35,13 @@ namespace EditorDeTexto
                 Console.WriteLine("-------------------------------------");
                 string text = "";
 
+                do
+                {
+                    text += Console.ReadLine();
+                    text += Environment.NewLine;
+                }
                 while(Console.ReadKey().Key != ConsoleKey.Escape);
-
+                Console.Write(text);
             }
         }
     }
