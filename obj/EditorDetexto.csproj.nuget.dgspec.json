@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\EditorDetexto\\EditorDetexto.csproj": {}
+    "C:\\dev\\EditorDeTexto\\EditorDetexto.csproj": {}
   },
   "projects": {
-    "C:\\dev\\EditorDetexto\\EditorDetexto.csproj": {
+    "C:\\dev\\EditorDeTexto\\EditorDetexto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\EditorDetexto\\EditorDetexto.csproj",
+        "projectUniqueName": "C:\\dev\\EditorDeTexto\\EditorDetexto.csproj",
         "projectName": "EditorDetexto",
-        "projectPath": "C:\\dev\\EditorDetexto\\EditorDetexto.csproj",
+        "projectPath": "C:\\dev\\EditorDeTexto\\EditorDetexto.csproj",
         "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\EditorDetexto\\obj\\",
+        "outputPath": "C:\\dev\\EditorDeTexto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config"
